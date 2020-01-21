@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         });
         queue = Volley.newRequestQueue(this);
         setupRecycler();
-        connectToInternet();
+        connectToInternet();  //test
     }
 
     @Override
